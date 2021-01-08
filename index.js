@@ -1,3 +1,12 @@
+// var tooltip = new bootstrap.Tooltip($('.turned-off'), top);
+
+$(function () {
+ $('[data-tooltip]').tooltip();
+});
+
+// Variables
+var scrollPos = 0;
+
 // Document loading + animation
 $(document).ready(function () {
     $(document).scrollTop(0);
@@ -13,23 +22,33 @@ $(document).ready(function () {
                 $(".navbar").removeClass("send-back");
             });
         }, 200);
-    }, 100);
+    }, 500);
 });
 
 // Navbar toggler click functionality
-$(".navbar-toggler").click(function () {
-    $(".navbar-toggler").toggleClass("opened ");
-    $(".navbar").toggleClass("navbar-scrolled");
+$(".hamburger").click(function () {
+    $(".hamburger").toggleClass("opened ");
+    $(".navbar").toggleClass("menu-collapsed");
+    if ($(".navbar").hasClass("navbar-scrolled") === true && scrollPos === 0) {
+        $(".navbar").removeClass("navbar-scrolled");
+    } else {
+        $(".navbar").addClass("navbar-scrolled");
+    }
 });
 
 // add scrolled class to navbar if scrolled
 $(window).scroll(function () {
-    var scrollPos = $(document).scrollTop();
+    scrollPos = $(document).scrollTop();
     if (scrollPos > 0) {
         $(".navbar").addClass("navbar-scrolled");
     } else {
-        if ($(".navbar-collapse").hasClass("show") === false) {
+        if ($(".hamburger").hasClass("opened") === false) {
             $(".navbar").removeClass("navbar-scrolled");
         }
     }
 });
+
+// card button functionality
+$($(".carbon-quiz-btn")[1]).click(function () {
+    window.open("https://thomasbrettell.itch.io/the-carbon-quiz-webgl");
+})
