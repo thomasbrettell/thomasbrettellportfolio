@@ -37,7 +37,7 @@
     <div class="nav-content-container">
       <div class="nav-first">
         <div>
-          <a class="logo" href="">THOMAS BRETTELL</a>
+          <a class="logo menu-links">THOMAS BRETTELL</a>
           <a class="hamburger">
             <svg width="56" height="50" viewBox="0 0 100 100">
               <path class="line line1"
@@ -53,13 +53,13 @@
       <div class="nav-second">
         <ul id="menu">
           <li class="menu-links">
-            <a href="">My Work</a>
+            <a>My Work</a>
           </li>
           <li class="menu-links">
-            <a href="">About Me</a>
+            <a>About Me</a>
           </li>
           <li class="menu-links">
-            <a href="">Contact Me</a>
+            <a>Contact Me</a>
           </li>
         </ul>
       </div>
@@ -71,10 +71,23 @@
       <div>
         <h1 class="title-text">Hi, I'm Tom.</h1>
         <h3 class="intro-text">I'm a 21 year old digital <span class="highlight-text">designer</span> and <span
-            class="highlight-text">developer</span>. I strive to create <span class="highlight-text">high quality</span>
+            class="highlight-text">developer</span>. I strive to create <span class="highlight-text">high
+            quality</span>
           products with an emphasis on
           <span class="highlight-text">attention to detail</span> and <span class="highlight-text">UX</span> aided
           decision making.</h3>
+        <div class="row justify-content-center">
+          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+            <div class="d-grid h-100">
+              <button class="btn-lg btn-primary intro-btn" type="button">Contact me</button>
+            </div>
+          </div>
+          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+            <div class="d-grid h-100">
+              <button class="btn-lg btn-primary intro-btn cv-btn" type="button">My CV</button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -88,17 +101,21 @@
               <img src="assets/cazna/cazna-logo-vector.svg" alt="" height="74">
               <h5 class="card-title">Cazna.com</h5>
               <h6 class="card-subtitle">WEBSITE UI REDESIGN • FRONTEND WEB DEVELOPMENT</h6>
-              <p class="card-text">Redesigning of Cazna's website through low and high fidely prototyping followed by developing with HTML, CSS, jQuery and Bootstrap.</p>
+              <p class="card-text">Redesigning of Cazna's website through low and high fidely prototyping followed by
+                developing with HTML, CSS, jQuery and Bootstrap.<br> The public prototype gives you access to the
+                homepage and the UP Range page.</p>
               <div class="row">
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary cazna-btn card-text" type="button">Learn
+                    <button class="btn btn-outline-primary cazna-btn card-text turned-off" type="button" data-tooltip
+                      title="Coming soon">Learn
                       more</button>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary cazna-btn card-text" type="button">View the site</button>
+                    <button class="btn btn-outline-primary cazna-btn card-text" type="button"
+                      href="https://thomasbrettell.github.io/cazna-site/index.html">View the prototype</button>
                   </div>
                 </div>
               </div>
@@ -125,7 +142,8 @@
               <div class="row">
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary carbon-quiz-btn card-text turned-off" type="button" data-tooltip title="Coming soon">Learn
+                    <button class="btn btn-outline-primary carbon-quiz-btn card-text turned-off" type="button"
+                      data-tooltip title="Coming soon">Learn
                       more</button>
                   </div>
                 </div>
@@ -159,7 +177,8 @@
               <div class="row">
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary sleep-orbit-btn card-text" type="button">Learn
+                    <button class="btn btn-outline-primary sleep-orbit-btn card-text turned-off" type="button"
+                      data-tooltip title="Coming soon">Learn
                       more</button>
                   </div>
                 </div>
@@ -192,7 +211,8 @@
               <div class="row">
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary global-death-btn card-text" type="button">Learn
+                    <button class="btn btn-outline-primary global-death-btn card-text turned-off" type="button"
+                      data-tooltip title="Coming soon">Learn
                       more</button>
                   </div>
                 </div>
@@ -227,13 +247,15 @@
               <div class="row">
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary olympics-vis-btn card-text" type="button">Learn
+                    <button class="btn btn-outline-primary olympics-vis-btn card-text turned-off" type="button"
+                      data-tooltip title="Coming soon">Learn
                       more</button>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary olympics-vis-btn card-text" type="button">See the full vis</button>
+                    <button class="btn btn-outline-primary olympics-vis-btn card-text" type="button">See the full
+                      vis</button>
                   </div>
                 </div>
               </div>
@@ -241,6 +263,41 @@
           </div>
           <div class="col-md-6">
             <img src="assets/olympics-vis/olympic-vis-card-image.png" class="card-image" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div class="card domestic-violence-vis-card">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Is Summer the Season for Domestic Violence?</h5>
+              <h6 class="card-subtitle">STATIC INFORMATION VISUALISATION • EXPLORATORY DATA ANALYSIS</h6>
+              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
+                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
+                music
+                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
+                while travelling in space.</p>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-grid h-100">
+                    <button class="btn btn-outline-primary domestic-violence-vis-btn card-text turned-off" type="button"
+                      data-tooltip title="Coming soon">Learn
+                      more</button>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-grid h-100">
+                    <button class="btn btn-outline-primary domestic-violence-vis-btn card-text" type="button">See the
+                      full
+                      vis</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="assets/domestic-violence-vis/domestic-violence-vis-card-image.png" class="card-image" alt="...">
           </div>
         </div>
       </div>
@@ -259,14 +316,15 @@
               <div class="row">
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary museum-btn card-text" type="button">Learn
+                    <button class="btn btn-outline-primary museum-btn card-text turned-off" type="button" data-tooltip
+                      title="Coming soon">Learn
                       more</button>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary museum-btn card-text" type="button">See the
-                      website</button>
+                    <button class="btn btn-outline-primary museum-btn card-text" type="button">See the full
+                      poster</button>
                   </div>
                 </div>
               </div>
@@ -291,16 +349,11 @@
                 and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
                 while travelling in space.</p>
               <div class="row">
-                <div class="col-6">
+                <div class="col">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary kymriah-btn card-text" type="button">Learn
+                    <button class="btn btn-outline-primary kymriah-btn card-text turned-off" type="button" data-tooltip
+                      title="Coming soon">Learn
                       more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary kymriah-btn card-text" type="button">See the
-                      website</button>
                   </div>
                 </div>
               </div>
@@ -326,13 +379,15 @@
               <div class="row">
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary web-dev-btn card-text" type="button">Learn
+                    <button class="btn btn-outline-primary web-dev-btn card-text turned-off" type="button" data-tooltip
+                      title="Coming soon">Learn
                       more</button>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary web-dev-btn card-text" type="button">See the
+                    <button class="btn btn-outline-primary web-dev-btn card-text turned-off" type="button" data-tooltip
+                      title="Coming soon">See the
                       website</button>
                   </div>
                 </div>
@@ -341,10 +396,59 @@
           </div>
         </div>
       </div>
-
     </section>
 
-    <section id="skills">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <p>I graduated with a degree of Design Computing form the University of Sydney in 2020. Im a creative thinker
+            who
+            has always had a passion for all areas of digital and technological design. I love to learn new skills and
+            continually work to refine my current ones. My goal is to create innovative products that can help
+            people and our planet.</p>
+        </div>
+      </div>
+      <div class="d-grid col-5 col-sm-3 col-md-2 mx-auto">
+        <button class="btn-lg btn-primary cv-btn intro-btn" type="button">My CV</button>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me Via...</h2>
+      <div class="row justify-content-around">
+        <div class="col-10 col-md-5">
+          <a href="mailto:thomas.a.brettell@gmail.com">
+            <div class="row justify-content-center contact-row">
+              <div class="col-12 col-sm-2 contact-col">
+                <p><strong>EMAIL</strong></p>
+              </div>
+              <div class="col-12 col-sm-10 contact-col contact-col-right">
+                <p>thomas.a.brettell@gmail.com</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-10 col-md-5">
+          <a href="tel:+61425429717">
+            <div class="row justify-content-center contact-row">
+              <div class="col-12 col-sm-2 contact-col">
+                <p><strong>PHONE</strong></p>
+              </div>
+              <div class="col-12 col-sm-10 contact-col contact-col-right">
+                <p>+61 (0) 425 429 717</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <a target="_blank" href="https://www.linkedin.com/in/thomas-brettell-153a991b5/">
+        <div class="row justify-content-around">
+          <div class="col-10 col-md-5 contact-row contact-col-linkedin contact-col">
+            <p><strong>LINKEDIN</strong></p>
+          </div>
+        </div>
+      </a>
     </section>
   </div>
 
@@ -354,8 +458,10 @@
 
 </body>
 
+
 <!-- JQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
 
 <!-- Bootstap JS + Plugins -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

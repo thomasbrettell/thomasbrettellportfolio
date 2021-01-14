@@ -3,6 +3,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+section {
+    padding-top: 1rem;
+}
+
 h2 {
     text-align: center;
     padding-bottom: 3rem;
@@ -29,6 +33,10 @@ a:hover {
     color: inherit;
 }
 
+.disp-inline {
+    display: inline;
+}
+
 .main-wrapper {
     max-width: 100%;
     margin: 0 auto;
@@ -49,9 +57,7 @@ a:hover {
     cursor: not-allowed !important;
 }
 
-.gradient-text {
-
-}
+.gradient-text {}
 
 .btn {
     border: 2px solid transparent;
@@ -112,7 +118,7 @@ ul#menu {
     top: 0;
     max-height: 64px;
     -webkit-backdrop-filter: saturate(180%) blur(5px);
-            backdrop-filter: saturate(180%) blur(5px);
+    backdrop-filter: saturate(180%) blur(5px);
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
     justify-content: center;
@@ -172,6 +178,10 @@ ul#menu {
     max-height: 169px;
 }
 
+.menu-links {
+    cursor: pointer;
+}
+
 
 /* Hamburger */
 .hamburger {
@@ -191,12 +201,11 @@ ul#menu {
     text-align: center;
     display: flex;
     flex-flow: column;
-    display: flex;
     justify-content: center;
 }
 
 .title-text {
-    font-size: calc(8rem + 2vw);
+    /* font-size: calc(5rem + 5vw); */
     line-height: 1;
     font-weight: 800;
     letter-spacing: -.08em;
@@ -204,16 +213,27 @@ ul#menu {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin: 0;
 }
 
 .intro-text {
-    margin-top: 8rem;
+    margin-top: 8.5vh;
+    margin-bottom: 8.5vh;
+    font-size: calc(1.3rem + .2vw);
+}
+
+.intro-btn {
+    border: none;
+    background-color: #007cf0;
+}
+
+.intro-btn:hover {
+    background-color: #0258a8;
 }
 
 
 /* Work */
-#work {
-}
+#work {}
 
 .card {
     /* background: linear-gradient(to right bottom, #071931 0%, #33274f 50%, #661e43 100%); */
@@ -221,8 +241,8 @@ ul#menu {
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 0 25px 15px rgba(0,0,0,.1);
-    -webkit-box-shadow: 0 0 25px 15px rgba(0,0,0,.1);
+    box-shadow: 0 0 25px 15px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 25px 15px rgba(0, 0, 0, .1);
     border: 1px solid transparent;
     margin-bottom: 4rem;
     transition: transform 1s ease;
@@ -256,8 +276,8 @@ ul#menu {
     width: 100%;
     height: 100%;
     -o-object-fit: contain;
-       object-fit: contain;
-    padding:0 3rem 0 0;
+    object-fit: contain;
+    padding: 0 3rem 0 0;
 }
 
 /* Cazna card */
@@ -268,7 +288,7 @@ ul#menu {
 
 .cazna-btn {
     color: #fff;
-    border-color:  #fff;
+    border-color: #fff;
 }
 
 .cazna-btn:hover {
@@ -286,7 +306,7 @@ ul#menu {
 
 .carbon-quiz-btn {
     color: #112c10;
-    border-color:  #112c10;
+    border-color: #112c10;
 }
 
 .carbon-quiz-btn:hover {
@@ -298,11 +318,11 @@ ul#menu {
 /* Sleep Orbit card */
 .sleep-orbit-card {
     background-color: #a2b5ee;
-    color:  #121c38;
+    color: #121c38;
 }
 
 .sleep-orbit-btn {
-    color:  #121c38;
+    color: #121c38;
     border-color: #121c38;
 }
 
@@ -315,11 +335,11 @@ ul#menu {
 /* Global Causes of Death card*/
 .global-death-card {
     background-color: #a79fe0;
-    color:  #0f0b2e;
+    color: #0f0b2e;
 }
 
 .global-death-btn {
-    color:  #0f0b2e;
+    color: #0f0b2e;
     border-color: #0f0b2e;
 }
 
@@ -332,11 +352,11 @@ ul#menu {
 /* Olympics vis */
 .olympics-vis-card {
     background-color: #d1d1d1;
-    color:  #464646;
+    color: #464646;
 }
 
 .olympics-vis-btn {
-    color:  #464646;
+    color: #464646;
     border-color: #464646;
 }
 
@@ -346,14 +366,31 @@ ul#menu {
     color: #fff;
 }
 
+/* Domestic violence vis */
+.domestic-violence-vis-card {
+    background-color: #b5beea;
+    color: #17215e;
+}
+
+.domestic-violence-vis-btn {
+    color: #17215e;
+    border-color: #17215e;
+}
+
+.domestic-violence-vis-btn:hover {
+    background-color: #17215e;
+    border-color: #17215e;
+    color: #fff;
+}
+
 /* Museum */
 .museum-card {
     background-color: #e4e26f;
-    color:  #27270d;
+    color: #27270d;
 }
 
 .museum-btn {
-    color:  #27270d;
+    color: #27270d;
     border-color: #27270d;
 }
 
@@ -366,11 +403,11 @@ ul#menu {
 /* Kymriah card */
 .kymriah-card {
     background-color: #d4bdac;
-    color:  #201c19;
+    color: #201c19;
 }
 
 .kymriah-btn {
-    color:  #201c19;
+    color: #201c19;
     border-color: #201c19;
 }
 
@@ -383,11 +420,11 @@ ul#menu {
 /* Web Dev Card */
 .web-dev-card {
     background-color: #ca6868;
-    color:  #310e0e;
+    color: #310e0e;
 }
 
 .web-dev-btn {
-    color:  #310e0e;
+    color: #310e0e;
     border-color: #310e0e;
 }
 
@@ -397,10 +434,32 @@ ul#menu {
     color: #fff;
 }
 
-/* skills */
-#skills {
-    height: 100vh;
-    background-color: brown;
+/* about */
+#about {
+    margin-bottom: 4rem;
+}
+
+#about p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* contact */
+#contact {
+    /* height: 100vh; */
+}
+
+.contact-row {
+    border-top: 1px solid #000000;
+    margin-bottom: 2rem;
+}
+
+.contact-col {
+    padding: 0;
+}
+
+.contact-col-right {
+    text-align: right;
 }
 
 
@@ -415,6 +474,7 @@ ul#menu {
     font-weight: 300;
     color: #666;
     line-height: 1;
+    margin-top: 4rem;
 }
 
 
@@ -462,6 +522,38 @@ ul#menu {
 
 
 /* Responsiveness */
+
+@media (max-height: 360px) {
+    #introduction .intro-btn {
+        display: none;
+    }
+}
+
+
+@media (max-height: 475px) {
+    #introduction {
+        padding-top: 66px;
+        padding-bottom: 33px;
+    }
+
+    .intro-text {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-col-right {
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-col-linkedin {
+        text-align: left;
+    }
+}
+
 /* Above 951px */
 @media (min-width: 951px) {
     .hamburger {
@@ -489,7 +581,7 @@ ul#menu {
 @media (max-width: 767px) {
 
     .card-image {
-        padding:0 1rem 1rem;
+        padding: 0 1rem 1rem;
     }
 
     .card-body {
