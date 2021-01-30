@@ -57,6 +57,9 @@ $(".cv-btn").click(function () {
 });
 
 // card button functionality
+$($(".carbon-quiz-btn")[0]).click(function () {
+    window.location.href = "the-carbon-quiz-about.html";
+});
 $($(".carbon-quiz-btn")[1]).click(function () {
     window.open("https://thomasbrettell.itch.io/the-carbon-quiz-webgl");
 });
@@ -92,6 +95,10 @@ $(".menu-links").click(function (e) {
             $(document).scrollTop(0);
             break;
 
+        case "Home":
+            window.location.href = "index.html";
+            break;
+
         case "My Work":
             $(document).scrollTop($("#work")[0].offsetTop - 64);
             break;
@@ -104,4 +111,15 @@ $(".menu-links").click(function (e) {
             $(document).scrollTop($("#contact")[0].offsetTop - 64);
             break;
     }
+});
+
+// The Carbon Quiz Page
+$($(".carbon-quiz-intro-btn")[0]).click(function () {
+    window.open("assets/carbon-quiz/TheCarbonQuiz-ConceptProposal.pdf");
+});
+$($(".carbon-quiz-intro-btn")[1]).click(function () {
+    window.open("assets/carbon-quiz/TheCarbonQuiz-LowFi.pdf");
+});
+$($(".carbon-quiz-intro-btn")[2]).click(function () {
+    window.open("assets/carbon-quiz/TheCarbonQuiz-HighFi.pdf");
 });

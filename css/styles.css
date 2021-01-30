@@ -33,6 +33,10 @@ a:hover {
     color: inherit;
 }
 
+.main-padding {
+    padding-top: 10rem;
+}
+
 .disp-inline {
     display: inline;
 }
@@ -194,6 +198,19 @@ ul#menu {
     display: flex;
 }
 
+/* Backbutton */
+.back-button {
+    position: fixed;
+    background: -webkit-linear-gradient(180deg, #00dfd8, #007cf0);
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    top: 84px;
+    color:white;
+}
+
+.back-button a:hover {
+    border-bottom: 1px solid white;
+}
 
 /* Introduction Section */
 #introduction {
@@ -205,7 +222,6 @@ ul#menu {
 }
 
 .title-text {
-    /* font-size: calc(5rem + 5vw); */
     line-height: 1;
     font-weight: 800;
     letter-spacing: -.08em;
@@ -446,12 +462,15 @@ ul#menu {
 
 /* contact */
 #contact {
-    /* height: 100vh; */
 }
 
 .contact-row {
     border-top: 1px solid #000000;
     margin-bottom: 2rem;
+}
+
+.contact-col-linkedin {
+    text-align: center;
 }
 
 .contact-col {
@@ -589,57 +608,26 @@ ul#menu {
     }
 }
 
-/* 
-@media (max-width: 640px) {
-    .container-fluid {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
+
+/* The Carbon Quiz About */
+.carbon-quiz-title {
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -.08em;
+    background: -webkit-linear-gradient(180deg, #76bc74, #112c10);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0 8.5vh;
 }
 
-@media (min-width: 768px) {
-    .title-text {
-        margin: 5rem 0 2rem;
-    }
+.carbon-quiz-intro-btn {
+    background-color: #112c10;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
 }
 
-@media (min-width: 1024px) {
-
+.carbon-quiz-intro-btn:hover {
+    background-color: #275225;
 }
-
-@media (min-width: 1280px) {
-
-} */
-
-/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) { 
-    .container-fluid {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) { 
-    .title-text {
-        margin: 5rem 0 2rem;
-    }
-} */
-
-/* @media (width: 812px) {
-
-    .container-fluid {
-        padding-left: 4%;
-        padding-right: 4%;
-    }
-
-    .title-text {
-        margin: 5rem 0 2rem;
-    }
-}
-
-@media (width: 375px) {
-
-    .container-fluid {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-} */

@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thomas Brettell | Portfolio</title>
 
+  <meta name="author" content="Thomas Brettell">
+  <meta name="keywords"
+    content="Thomas, Brettell, Portfolio, Web Developer, Work, HTML, CSS, jQuery, React, JavaScript, Node, Data, Data visualisation, Design computing, University of Sydney">
+  <meta name="description"
+    content="Thomas Brettell's portfolio. I'm a 21 year old digital designer and developer. I strive to create high quality products with an emphasis on attention to detail and UX aided decision making.">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/favicon.ico" />
 
   <!-- Fonts -->
@@ -27,430 +34,434 @@
 </head>
 
 <body>
-  <!-- Loading divs -->
-  <div class="loading back"></div>
-  <div class="loading mid"></div>
-  <div class="loading front"></div>
+  <!-- Coded from scratch by Thomas Brettell -->
 
-  <!-- Navigation Bar -->
-  <div class="navbar">
-    <div class="nav-content-container">
-      <div class="nav-first">
-        <div>
-          <a class="logo menu-links">THOMAS BRETTELL</a>
-          <a class="hamburger">
-            <svg width="56" height="50" viewBox="0 0 100 100">
-              <path class="line line1"
-                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-              <path class="line line2" d="M 20,50 H 80" />
-              <path class="line line3"
-                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-            </svg>
-          </a>
+
+  <loading>
+    <!-- Loading divs -->
+    <div class="loading back"></div>
+    <div class="loading mid"></div>
+    <div class="loading front"></div>
+  </loading>
+
+
+  <header>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <div class="nav-content-container">
+        <div class="nav-first">
+          <div>
+            <a class="logo menu-links">THOMAS BRETTELL</a>
+            <a class="hamburger">
+              <svg width="56" height="50" viewBox="0 0 100 100">
+                <path class="line line1"
+                  d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path class="line line3"
+                  d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+              </svg>
+            </a>
+          </div>
+
         </div>
-
-      </div>
-      <div class="nav-second">
-        <ul id="menu">
-          <li class="menu-links">
-            <a>My Work</a>
-          </li>
-          <li class="menu-links">
-            <a>About Me</a>
-          </li>
-          <li class="menu-links">
-            <a>Contact Me</a>
-          </li>
-        </ul>
+        <div class="nav-second">
+          <ul id="menu">
+            <li class="menu-links">
+              <a>Home</a>
+            </li>
+            <li class="menu-links">
+              <a>My Work</a>
+            </li>
+            <li class="menu-links">
+              <a>About Me</a>
+            </li>
+            <li class="menu-links">
+              <a>Contact Me</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
+  </header>
 
-  <div class="main-wrapper">
-    <section id="introduction">
-      <div>
-        <h1 class="title-text">Hi, I'm Tom.</h1>
-        <h3 class="intro-text">I'm a 21 year old digital <span class="highlight-text">designer</span> and <span
-            class="highlight-text">developer</span>. I strive to create <span class="highlight-text">high
-            quality</span>
-          products with an emphasis on
-          <span class="highlight-text">attention to detail</span> and <span class="highlight-text">UX</span> aided
-          decision making.</h3>
+  <main>
+    <div class="main-wrapper">
+      <section id="introduction">
+        <div>
+          <h1 class="title-text">Hi, I'm Tom.</h1>
+          <h3 class="intro-text">I'm a 21 year old digital <span class="highlight-text">designer</span> and <span
+              class="highlight-text">developer</span>. I strive to create <span class="highlight-text">high
+              quality</span>
+            products with an emphasis on
+            <span class="highlight-text">attention to detail</span> and <span class="highlight-text">UX</span> aided
+            decision making.</h3>
+          <div class="row justify-content-center">
+            <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+              <div class="d-grid h-100">
+                <button class="btn-lg btn-primary intro-btn" type="button">Contact me</button>
+              </div>
+            </div>
+            <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+              <div class="d-grid h-100">
+                <button class="btn-lg btn-primary intro-btn cv-btn" type="button">My CV</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work">
+        <h2>My Work</h2>
+
+        <div class="card cazna-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <img src="assets/cazna/cazna-logo-vector.svg" alt="Cazna logo" height="74">
+                <h5 class="card-title">Cazna.com</h5>
+                <h6 class="card-subtitle">WEBSITE UI REDESIGN • FRONTEND WEB DEVELOPMENT</h6>
+                <p class="card-text">Redesigning of Cazna's website through low and high fidely prototyping followed by
+                  developing with HTML, CSS, jQuery and Bootstrap.<br> The public prototype gives you access to the
+                  homepage and the UP Range page.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary cazna-btn card-text turned-off" type="button" data-tooltip
+                        title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary cazna-btn card-text" type="button"
+                        href="https://thomasbrettell.github.io/cazna-site/index.html">View the prototype</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/cazna/cazna-card-image.png" class="card-image" alt="Cazna website preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card carbon-quiz-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <img src="assets/carbon-quiz/TheCarbonQuizLogo.svg" alt="The Carbon Quiz logo" height="74">
+                <h5 class="card-title">The Carbon Quiz</h5>
+                <h6 class="card-subtitle">DESIGNING IN THE ANTHROPOCENE • FIRST PERSON INFORMATION GAME DEVELOPMENT</h6>
+                <p class="card-text">First person game which aims to tackle misinformation surrounding climate change,
+                  specifically carbon emissions. The game was made in Unity and requires the player to complete a Todo
+                  List in the most carbon friendly way. <br> This project recieved the highest mark out of my graduating
+                  cohort.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary carbon-quiz-btn card-text" type="button">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary carbon-quiz-btn card-text" type="button"
+                        href="https://thomasbrettell.itch.io/the-carbon-quiz-webgl">Play the game</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/carbon-quiz/carbom-quiz-card-image.png" class="card-image"
+                alt="The Carbon Quiz game preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card sleep-orbit-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <img src="assets/sleep-orbit/sleeporbit logo small.svg" alt="Sleep Orbit app logo" height="74">
+                <h5 class="card-title">Sleep Orbit</h5>
+                <h6 class="card-subtitle">DESIGNING FOR SPACE TRAVEL • MENTAL WELLBEING UI APP DESIGN</h6>
+                <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
+                  difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
+                  music
+                  and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
+                  while travelling in space.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary sleep-orbit-btn card-text turned-off" type="button"
+                        data-tooltip title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary sleep-orbit-btn card-text" type="button">See the full
+                        design</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/sleep-orbit/sleep-orbit-card-image.png" class="card-image"
+                alt="Sleep Orbit app preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card global-death-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Global Causes of Death</h5>
+                <h6 class="card-subtitle">WEB BASED DATA VISUALISATION • EXPLORATORY DATA ANALYSIS</h6>
+                <p class="card-text">Web based data visualisation which allows the user to select any two countries and
+                  see a break down of how their populus died from any year between 1990 and 2017.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary global-death-btn card-text turned-off" type="button"
+                        data-tooltip title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary global-death-btn card-text" type="button">See the
+                        site</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/global-deaths/global-deaths-card-image copy.png" class="card-image"
+                alt="Global Causes of Death website preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card olympics-vis-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <img src="assets/olympics-vis/olympics-vis-logo.svg" alt="Olympics logo" height="77">
+                <h5 class="card-title">Success at the summer Olympics became
+                  more globalised as a result of World War 2</h5>
+                <h6 class="card-subtitle">STATIC INFORMATION VISUALISATION</h6>
+                <p class="card-text">Information visualisation which shows the total medal count and percentage medal
+                  count of every country both before and after World War 2. This data shows that after the fallout of
+                  World War 2, the international community became more globalised.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary olympics-vis-btn card-text turned-off" type="button"
+                        data-tooltip title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary olympics-vis-btn card-text" type="button">See the full
+                        vis</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/olympics-vis/olympic-vis-card-image.png" class="card-image"
+                alt="Olympics world war 1 data vis preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card domestic-violence-vis-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Is Summer the Season for Domestic Violence?</h5>
+                <h6 class="card-subtitle">STATIC INFORMATION VISUALISATION • EXPLORATORY DATA ANALYSIS</h6>
+                <p class="card-text">Information visualisation which shows the percentage of domestic violence cases
+                  that
+                  occured in NSW from 1995 to 2019 and shows that Summer is the most prevelent season for domestic
+                  violence.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary domestic-violence-vis-btn card-text turned-off"
+                        type="button" data-tooltip title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary domestic-violence-vis-btn card-text" type="button">See the
+                        full
+                        vis</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/domestic-violence-vis/domestic-violence-vis-card-image.png" class="card-image"
+                alt="Domestic Violence data vis preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card museum-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <h5 class="card-title">Experience of Children at Museums</h5>
+                <h6 class="card-subtitle">UX RESEARCH</h6>
+                <p class="card-text">User Experience research was conducted on the experience of being a child and going
+                  to the museum. A poster was created to communicate the findings.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary museum-btn card-text turned-off" type="button" data-tooltip
+                        title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary museum-btn card-text" type="button">See the full
+                        poster</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/museum/museum-card-image.png" class="card-image"
+                alt="User Experience UX Museum poster preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card kymriah-card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <img src="assets/kymriah/kymriah-logo.svg" alt="Kyrmriah patient support logo" height="74">
+                <h5 class="card-title">Internship work on Kymriah Patient Support Program</h5>
+                <h6 class="card-subtitle">WEB DEVELOPMENT • GRAPHIC DESIGN • BRANDING</h6>
+                <p class="card-text">Graphic design branding for the Kymriah patient support program as well as the
+                  MedHub
+                  page for general practitioners.</p>
+                <div class="row">
+                  <div class="col">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary kymriah-btn card-text turned-off" type="button"
+                        data-tooltip title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="assets/kymriah/kymriah-card-image.png" class="card-image"
+                alt="Kyrmiah MedHub website preview image">
+            </div>
+          </div>
+        </div>
+
+        <div class="card web-dev-card">
+          <div class="row g-0">
+            <div class="col">
+              <div class="card-body">
+                <h5 class="card-title">Web Development Course Websites</h5>
+                <h6 class="card-subtitle">FULLSTACK WEB DEVELOPMENT</h6>
+                <p class="card-text">A collection of sites made while doing a fullstack Wed Development course.</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary web-dev-btn card-text turned-off" type="button"
+                        data-tooltip title="Coming soon">Learn
+                        more</button>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="d-grid h-100">
+                      <button class="btn btn-outline-primary web-dev-btn card-text turned-off" type="button"
+                        data-tooltip title="Coming soon">See the
+                        website</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
         <div class="row justify-content-center">
-          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
-            <div class="d-grid h-100">
-              <button class="btn-lg btn-primary intro-btn" type="button">Contact me</button>
-            </div>
-          </div>
-          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
-            <div class="d-grid h-100">
-              <button class="btn-lg btn-primary intro-btn cv-btn" type="button">My CV</button>
-            </div>
+          <div class="col-10">
+            <p>I graduated with a degree of Design Computing form the University of Sydney in 2020. Im a creative
+              thinker
+              who
+              has always had a passion for all areas of digital and technological design. I love to learn new skills and
+              continually work to refine my current ones. My goal is to create innovative products that can help
+              people and our planet.</p>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="d-grid col-5 col-sm-3 col-md-2 mx-auto">
+          <button class="btn-lg btn-primary cv-btn intro-btn" type="button">My CV</button>
+        </div>
+      </section>
 
-    <section id="work">
-      <h2>My Work</h2>
-
-      <div class="card cazna-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <img src="assets/cazna/cazna-logo-vector.svg" alt="" height="74">
-              <h5 class="card-title">Cazna.com</h5>
-              <h6 class="card-subtitle">WEBSITE UI REDESIGN • FRONTEND WEB DEVELOPMENT</h6>
-              <p class="card-text">Redesigning of Cazna's website through low and high fidely prototyping followed by
-                developing with HTML, CSS, jQuery and Bootstrap.<br> The public prototype gives you access to the
-                homepage and the UP Range page.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary cazna-btn card-text turned-off" type="button" data-tooltip
-                      title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary cazna-btn card-text" type="button"
-                      href="https://thomasbrettell.github.io/cazna-site/index.html">View the prototype</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/cazna/cazna-card-image.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card carbon-quiz-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <img src="assets/carbon-quiz/TheCarbonQuizLogo.svg" alt="" height="74">
-              <h5 class="card-title">The Carbon Quiz</h5>
-              <h6 class="card-subtitle">DESIGNING IN THE ANTHROPOCENE • FIRST PERSON INFORMATION GAME DEVELOPMENT</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary carbon-quiz-btn card-text turned-off" type="button"
-                      data-tooltip title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary carbon-quiz-btn card-text" type="button"
-                      href="https://thomasbrettell.itch.io/the-carbon-quiz-webgl">Play the game</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/carbon-quiz/carbom-quiz-card-image.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card sleep-orbit-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <img src="assets/sleep-orbit/sleeporbit logo small.svg" alt="" height="74">
-              <h5 class="card-title">Sleep Orbit</h5>
-              <h6 class="card-subtitle">DESIGNING FOR SPACE TRAVEL • MENTAL WELLBEING UI APP DESIGN</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary sleep-orbit-btn card-text turned-off" type="button"
-                      data-tooltip title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary sleep-orbit-btn card-text" type="button">See the full
-                      design</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/sleep-orbit/sleep-orbit-card-image.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card global-death-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Global Causes of Death</h5>
-              <h6 class="card-subtitle">WEB BASED DATA VISUALISATION • EXPLORATORY DATA ANALYSIS</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary global-death-btn card-text turned-off" type="button"
-                      data-tooltip title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary global-death-btn card-text" type="button">See the
-                      site</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/global-deaths/global-deaths-card-image copy.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card olympics-vis-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <img src="assets/olympics-vis/olympics-vis-logo.svg" alt="" height="77">
-              <h5 class="card-title">Success at the summer Olympics became
-                more globalised as a result of World War 2</h5>
-              <h6 class="card-subtitle">STATIC INFORMATION VISUALISATION</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary olympics-vis-btn card-text turned-off" type="button"
-                      data-tooltip title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary olympics-vis-btn card-text" type="button">See the full
-                      vis</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/olympics-vis/olympic-vis-card-image.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card domestic-violence-vis-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Is Summer the Season for Domestic Violence?</h5>
-              <h6 class="card-subtitle">STATIC INFORMATION VISUALISATION • EXPLORATORY DATA ANALYSIS</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary domestic-violence-vis-btn card-text turned-off" type="button"
-                      data-tooltip title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary domestic-violence-vis-btn card-text" type="button">See the
-                      full
-                      vis</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/domestic-violence-vis/domestic-violence-vis-card-image.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card museum-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <h5 class="card-title">Experience of Child at Museums</h5>
-              <h6 class="card-subtitle">UX RESEARCH</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary museum-btn card-text turned-off" type="button" data-tooltip
-                      title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary museum-btn card-text" type="button">See the full
-                      poster</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/museum/museum-card-image.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card kymriah-card">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body">
-              <img src="assets/kymriah/kymriah-logo.svg" alt="" height="74">
-              <h5 class="card-title">Internship work on Kyrmiah Patient Support Program</h5>
-              <h6 class="card-subtitle">WEB DEVELOPMENT • GRAPHIC DESIGN • BRANDING</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary kymriah-btn card-text turned-off" type="button" data-tooltip
-                      title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="assets/kymriah/kymriah-card-image.png" class="card-image" alt="...">
-          </div>
-        </div>
-      </div>
-
-      <div class="card web-dev-card">
-        <div class="row g-0">
-          <div class="col">
-            <div class="card-body">
-              <h5 class="card-title">Web Development Course Websites</h5>
-              <h6 class="card-subtitle">FULLSTACK WEB DEVELOPMENT</h6>
-              <p class="card-text">Design for a mobile app and wearable ring that monitors sleep to assist with the
-                difficulties of sleeping while residing in space. Additional features such as stats, mindfulness,
-                music
-                and helpful tips assist travellers with overcoming the prevelent psychological harm that they may face
-                while travelling in space.</p>
-              <div class="row">
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary web-dev-btn card-text turned-off" type="button" data-tooltip
-                      title="Coming soon">Learn
-                      more</button>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="d-grid h-100">
-                    <button class="btn btn-outline-primary web-dev-btn card-text turned-off" type="button" data-tooltip
-                      title="Coming soon">See the
-                      website</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <p>I graduated with a degree of Design Computing form the University of Sydney in 2020. Im a creative thinker
-            who
-            has always had a passion for all areas of digital and technological design. I love to learn new skills and
-            continually work to refine my current ones. My goal is to create innovative products that can help
-            people and our planet.</p>
-        </div>
-      </div>
-      <div class="d-grid col-5 col-sm-3 col-md-2 mx-auto">
-        <button class="btn-lg btn-primary cv-btn intro-btn" type="button">My CV</button>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Me Via...</h2>
-      <div class="row justify-content-around">
-        <div class="col-10 col-md-5">
-          <a href="mailto:thomas.a.brettell@gmail.com">
-            <div class="row justify-content-center contact-row">
-              <div class="col-12 col-sm-2 contact-col">
-                <p><strong>EMAIL</strong></p>
-              </div>
-              <div class="col-12 col-sm-10 contact-col contact-col-right">
-                <p>thomas.a.brettell@gmail.com</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-10 col-md-5">
-          <a href="tel:+61425429717">
-            <div class="row justify-content-center contact-row">
-              <div class="col-12 col-sm-2 contact-col">
-                <p><strong>PHONE</strong></p>
-              </div>
-              <div class="col-12 col-sm-10 contact-col contact-col-right">
-                <p>+61 (0) 425 429 717</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <a target="_blank" href="https://www.linkedin.com/in/thomas-brettell-153a991b5/">
+      <section id="contact">
+        <h2>Contact Me Via...</h2>
         <div class="row justify-content-around">
-          <div class="col-10 col-md-5 contact-row contact-col-linkedin contact-col">
-            <p><strong>LINKEDIN</strong></p>
+          <div class="col-10 col-md-5">
+            <a href="mailto:thomas.a.brettell@gmail.com">
+              <div class="row justify-content-center contact-row">
+                <div class="col-12 col-sm-2 contact-col">
+                  <p><strong>EMAIL</strong></p>
+                </div>
+                <div class="col-12 col-sm-10 contact-col contact-col-right">
+                  <p>thomas.a.brettell@gmail.com</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-10 col-md-5">
+            <a href="tel:+61425429717">
+              <div class="row justify-content-center contact-row">
+                <div class="col-12 col-sm-2 contact-col">
+                  <p><strong>PHONE</strong></p>
+                </div>
+                <div class="col-12 col-sm-10 contact-col contact-col-right">
+                  <p>+61 (0) 425 429 717</p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
-      </a>
-    </section>
-  </div>
+        <a target="_blank" href="https://www.linkedin.com/in/thomas-brettell-153a991b5/">
+          <div class="row justify-content-around">
+            <div class="col-10 col-md-5 contact-row contact-col-linkedin contact-col">
+              <p><strong>LINKEDIN</strong></p>
+            </div>
+          </div>
+        </a>
+      </section>
+    </div>
+  </main>
 
   <footer id="footer">
     <p>© Copyright 2021 Thomas Brettell</p>
@@ -458,17 +469,18 @@
 
 </body>
 
+<scripts>
+  <!-- JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="jquery.fittext.js"></script>
 
-<!-- JQuery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="jquery.fittext.js"></script>
+  <!-- Bootstap JS + Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
 
-<!-- Bootstap JS + Plugins -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-</script>
-
-<!-- Index JavaScript -->
-<script src="index.js" charset="utf-8"></script>
+  <!-- Index JavaScript -->
+  <script src="index.js" charset="utf-8"></script>
+</scripts>
 
 </html>

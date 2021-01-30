@@ -44,3 +44,5 @@
 
 // Title sizing
 $(".title-text").fitText(.5);
+
+$(".carbon-quiz-title").fitText(.75);
