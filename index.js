@@ -57,9 +57,9 @@ $(".cv-btn").click(function () {
 });
 
 // card button functionality
-$($(".carbon-quiz-btn")[0]).click(function () {
-    window.location.href = "the-carbon-quiz-about.html";
-});
+// $($(".carbon-quiz-btn")[0]).click(function () {
+//     window.location.href = "the-carbon-quiz-about.html";
+// });
 $($(".carbon-quiz-btn")[1]).click(function () {
     window.open("https://thomasbrettell.itch.io/the-carbon-quiz-webgl");
 });
