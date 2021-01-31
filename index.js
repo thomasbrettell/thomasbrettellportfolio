@@ -53,7 +53,7 @@ $($(".intro-btn")[0]).click(function () {
 });
 
 $(".cv-btn").click(function () {
-    window.open("assets/ThomasBrettellCV 9121.pdf");
+    window.open("assets/ThomasBrettellCV 300121.pdf");
 });
 
 // card button functionality
